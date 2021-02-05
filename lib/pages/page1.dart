@@ -23,6 +23,7 @@ class Pagina1 extends StatelessWidget {
               context: context,
               child: Pagina2(),
               animation: AnimationType.fadeIn,
+              duration: Duration(seconds: 1),
             );
           },
         ),
