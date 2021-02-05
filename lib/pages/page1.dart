@@ -24,6 +24,7 @@ class Pagina1 extends StatelessWidget {
               child: Pagina2(),
               animation: AnimationType.fadeIn,
               duration: Duration(seconds: 1),
+              replacement: false,
             );
           },
         ),
